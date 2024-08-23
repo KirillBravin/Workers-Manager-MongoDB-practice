@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkersManager", "WorkersManager\WorkersManager.csproj", "{8E696968-FEEB-4F1A-B3F7-18C3AA83B55D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E15DB0E5-7AB4-4F70-9878-736DBFE65C5A} = {E15DB0E5-7AB4-4F70-9878-736DBFE65C5A}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkersManager.Core", "WorkersManager.Core\WorkersManager.Core.csproj", "{E15DB0E5-7AB4-4F70-9878-736DBFE65C5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E696968-FEEB-4F1A-B3F7-18C3AA83B55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E696968-FEEB-4F1A-B3F7-18C3AA83B55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E696968-FEEB-4F1A-B3F7-18C3AA83B55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E696968-FEEB-4F1A-B3F7-18C3AA83B55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E15DB0E5-7AB4-4F70-9878-736DBFE65C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15DB0E5-7AB4-4F70-9878-736DBFE65C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E15DB0E5-7AB4-4F70-9878-736DBFE65C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E15DB0E5-7AB4-4F70-9878-736DBFE65C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66417DDD-6226-44CD-83E2-C4020B2CB8F7}
+	EndGlobalSection
+EndGlobal
